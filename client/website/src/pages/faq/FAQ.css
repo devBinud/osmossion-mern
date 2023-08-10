@@ -1,0 +1,111 @@
+/* GLOBAL COLOR ROOTS  */
+:root{
+    --color-primary:#5DB2FF;
+    --color-primary-light:#74b3ee;
+    --color-white:#fff;
+}
+.faq__outer__wrapper{
+    padding:60px 0;
+    background: linear-gradient(to right , rgb(214, 253, 253),#b1b9f7);
+    background-image: url("../../assets/bg/faq/bng.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.faq__outer__wrapper .faq .faq__title{
+    margin-bottom: 70px;
+}
+.faq__outer__wrapper .faq .faq__title h3{
+    color: var(--color-white);
+}
+.faq__inner__wrapper .nav-tabs {
+    border: 0;
+  }
+  .faq__inner__wrapper h3{
+    color: var(--color-white);
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+  .faq__title p{
+    color: #c2c2c2;
+  }
+  
+  .faq__inner__wrapper .nav-link {
+    border: 0;
+    padding: 12px 15px 12px 0;
+    transition: 0.3s;
+    color: #44546d;
+    border-radius: 0;
+    background-color: #fff;
+    margin:6px 0;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 20px;
+    border-radius: 3px;
+  }
+  
+  .faq__inner__wrapper .nav-link:hover {
+    color: var(--color-white);
+    background:linear-gradient(to right, #5db2ff 0%, #0181f5 100%);
+  }
+  
+  .faq__inner__wrapper .nav-link.active {
+    color: var(--color-white);
+    background:linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+    padding-left: 20px;
+  }
+  
+  .faq__inner__wrapper .tab-pane.active {
+    animation: fadeIn 0.5s ease-out;
+  }
+
+  /*************************  STYLE FOR ACCORDIAN  ****************************/
+
+  .accordion-button:focus {
+    z-index: 3;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none!important;
+  }
+  .accordion-body {
+    padding: 1rem 1.25rem;
+    font-size: 14px;
+    font-weight: 400;
+    color: #44546d; 
+}
+.accordion-button{
+    font-size: 16px;
+    font-weight: 500;
+    color: #44546d; 
+}
+.accordion-button:not(.collapsed) {
+    color: var(--color-primary);
+    background:linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-white);
+
+}
+  @media (max-width: 992px) {
+    .faq__outer__wrapper{
+        padding:30px 0;
+    }
+    .faq__outer__wrapper .faq .faq__title{
+        margin-bottom: 35px;
+    }
+    .faq__title p {
+        font-size: 14px;
+    }
+    .faq__inner__wrapper .nav-link {
+      border: 0;
+      padding: 15px;
+    }
+  
+    .faq__inner__wrapper .nav-link.active {
+      color: #fff;
+      background: #1977cc;
+    }
+  }
+  
+

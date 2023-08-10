@@ -1,0 +1,15 @@
+.viewblogcategory__wrapper{
+    display: flex;
+}
+.delete__category__button{
+    border:none;
+    outline:none;
+    background-color: #fff;
+}
+.delete__category__icon{
+    font-size: 20px;
+    color: #d9534f;
+}
+.delete__category__icon:hover{
+    color: #da3d38;
+}

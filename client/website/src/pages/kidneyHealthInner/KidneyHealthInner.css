@@ -1,0 +1,202 @@
+/* GLOBAL COLOR ROOTS  */
+:root{
+    --color-primary:#5DB2FF;
+    --color-primary-light:#74b3ee;
+    --color-white:#fff;
+    --color-main-paragraph:#c2c2c2;
+}
+.kidney__health__inner__wrapper{
+    padding:60px 0;
+    background: linear-gradient(to right , rgb(214, 253, 253),#b1b9f7);
+    /* background-image: url("../../assets/bg/faq/faq_bg.jpg"); */
+    background-image : url("../../assets/bg/faq/faq_bg_one.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kidney__health__inner__title{
+    margin-bottom: 80px;
+}
+.kidney__health__inner__title h3{
+    color: var(--color-white);
+}
+.kidney__health__inner__title p{
+    color: #c2c2c2;
+  }
+  
+.kidney__health__inner__accordian__content .nav-tabs {
+    border: 0;
+  }
+  .kidney__health__inner__accordian__content h3{
+    color: var(--color-white);
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+  .kidney__health__inner__tab__content__title{
+    margin-top: 40px;
+  }
+  .faq__title p{
+    color: #c2c2c2;
+  }
+  
+  .kidney__health__inner__accordian__content .nav-link {
+    border: 0;
+    padding: 25px;
+    transition: 0.3s;
+    color: #44546d;
+    border-radius: 0;
+    background-color: #fff;
+    margin:0px 6px;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 20px;
+    border-radius: 3px;
+  }
+  .kidney__health__innner__tab__contents__image{
+    margin-bottom: 40px;
+  }
+  .kidney__health__innner__tab__contents__image img{
+    border: 3px dotted #5db2ff;
+    border-radius: 4px;
+  }
+  .image__description{
+    color: var(--color-main-paragraph);
+  }
+  .kidney__health__inner__wrapper .nav-link:hover {
+    color: var(--color-white);
+    background:linear-gradient(to right, #5db2ff 0%, #0181f5 100%);
+  }
+  
+  .kidney__health__inner__wrapper .nav-link.active {
+    color: var(--color-white);
+    background:linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+    padding-left: 20px;
+  }
+  
+  .kidney__health__inner__wrapper .tab-pane.active {
+    animation:0.5s ease-out;
+  }
+
+  /* KIDNEY HEALTH INNER TAB CONTENT STYLING */
+
+  .kidney__health__innner__tab__contents h5{
+    color: #74b3ee;
+  }
+  .kidney__health__innner__tab__contents h6{
+    color: #74b3ee;
+  }
+  .kidney__health__innner__tab__contents p{
+    color: var(--color-main-paragraph);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .kidney__health__innner__tab__contents ul{
+    margin-left: -20px;
+  }
+  .kidney__health__innner__tab__contents ul li{
+    color: var(--color-main-paragraph);
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+
+  /*************************  STYLE FOR ACCORDIAN  ****************************/
+
+  .accordion-button:focus {
+    z-index: 3;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none!important;
+  }
+  .accordion-body {
+    padding: 1rem 1.25rem;
+    font-size: 14px;
+    font-weight: 400;
+    color: #44546d; 
+}
+.accordion-button{
+    font-size: 16px;
+    font-weight: 500;
+    color: #44546d; 
+}
+.accordion-button:not(.collapsed) {
+    color: var(--color-primary);
+    background:linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-white);
+
+}
+  @media (max-width: 992px) {
+    .faq__outer__wrapper{
+        padding:30px 0;
+    }
+    .faq__outer__wrapper .faq .faq__title{
+        margin-bottom: 35px;
+    }
+    .faq__title p {
+        font-size: 14px;
+    }
+    .faq__inner__wrapper .nav-link {
+      border: 0;
+      padding: 15px;
+    }
+  
+    .faq__inner__wrapper .nav-link.active {
+      color: #fff;
+      background: #1977cc;
+    }
+  }
+  
+/* MEDIA SCREEN SECTION  */
+
+@media screen and (max-width:576px){
+  .kidney__health__inner__wrapper {
+    padding: 30px 0;
+}
+.kidney__health__inner__title {
+  margin-bottom: 24px;
+}
+  .kidney__health__inner__title h3{
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.kidney__health__inner__title p{
+    font-size: 13px;
+    font-weight: 300;
+  }
+  .kidney__health__inner__accordian__content .nav-link {
+    font-size: 13px;
+    padding: 10px;
+    min-height: 62px;
+    padding-left: 20px;
+}
+.kidney__health__inner__accordian__content h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.kidney__health__innner__tab__contents h5 {
+  font-size: 16px;
+  line-height: 24px;
+}
+.kidney__health__innner__tab__contents p {
+  color: var(--color-main-paragraph);
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 21px;
+}
+.kidney__health__innner__tab__contents ul li {
+  font-size: 13px;
+}
+.kidney__health__innner__tab__contents p{
+  line-height: none;
+}
+.accordion-button{
+  font-size: 15px;
+}
+.accordion-button:not(.collapsed) {
+  font-size: 15px;
+}
+}

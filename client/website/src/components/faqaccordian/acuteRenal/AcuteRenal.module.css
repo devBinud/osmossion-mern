@@ -1,0 +1,11 @@
+/************************** Design CSS for Accordian *********************************/
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: none!important;
+}
+
+.accordian-button{
+  background-color:red!important;
+}

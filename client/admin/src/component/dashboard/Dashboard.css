@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+.toggled {
+    overflow: visible;
+    width: 6.5rem!important;
+}
+.toggled1{
+    width: 0!important;
+    overflow: hidden;
+}
+.blog__icon{
+    font-size: 30px;
+    color: rgb(67, 137, 223);
+}
+.logo__icons{
+    font-size: 40px;
+}
+/* .sidebar-brand-text{
+    margin-left:-20px!important
+} */
+
+/* Navbar logo  */
+.centered img{
+  width: 400px;
+}
+@media screen and (max-width:576px){
+  .navbar__logo img{
+    max-width: 100%;
+    height: auto;
+  }
+}
+/* Container holding the image and the text */
+
+.dashboard__left {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 80vh;
+    background-image: url("../../assets/images/dashboard/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered h6{
+    font-size: 40px;
+    font-weight: 600;
+    color:#3c678b;
+    font-family: 'Chakra Petch', sans-serif;
+    letter-spacing: 2px;
+  }
+  .dashboard__title{
+    margin-bottom: 8px;
+    width: 100%;
+    margin-top: -8px;
+    box-shadow: 0 2px 6px 0 rgba(67, 89, 113, 0.12);
+    padding: 20px;
+    color: #4e73df;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }

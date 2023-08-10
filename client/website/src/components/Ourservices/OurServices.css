@@ -1,0 +1,9 @@
+.services__wrapper{
+    margin-top: 70px;
+}
+/* MEDIA QUERIES */
+@media screen and (max-width:576px){
+    .services__wrapper{
+        margin-top: 40px;
+    }
+}

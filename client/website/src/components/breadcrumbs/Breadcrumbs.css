@@ -1,0 +1,45 @@
+/* GLOBAL COLORS */
+:root{
+    --color-white:#fff;
+    --color-breadcrumbs-list-item:#eeeeee;
+}
+.breadcrumbs{
+    padding: 148px 0px;
+    background-image: linear-gradient(to right, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%),
+     url('../../assets/breadcrumbs/bradcam.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.breadcrumbs .breadcrumbs__wrapper h2{
+   font-size: 40px;
+   font-weight: 500;
+   color:var(--color-white);
+}
+.breadcrumbs .breadcrumbs__wrapper .breadcrumbs__list__item{
+    font-size: 18px;
+    color: var(--color-white);
+    text-decoration: none;
+}
+.forward__slash{
+    color: var(--color-white);
+}
+.breadcrumbs .breadcrumbs__wrapper .breadcrumbs__list span{
+    font-size: 18px;
+    color: var(--color-breadcrumbs-list-item);
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:576px){
+    .breadcrumbs .breadcrumbs__wrapper h2{
+        font-size: 26px;
+     }
+     .breadcrumbs .breadcrumbs__wrapper .breadcrumbs__list span{
+        font-size: 16px;
+    }
+    .breadcrumbs .breadcrumbs__wrapper .breadcrumbs__list__item {
+        font-size: 16px;
+    }
+    
+}

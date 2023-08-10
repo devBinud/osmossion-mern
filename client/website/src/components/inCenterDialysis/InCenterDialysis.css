@@ -1,0 +1,44 @@
+/* GLOBAL COLORS */
+:root{
+    --color-primary:#0f1057!important;
+    --color-secondary: #0fabc3;
+    --color-default:rgb(22, 22, 74);
+    --color-paragraph:#1f1b4d;
+}
+.in__center__dialysis__wrapper{
+    margin-top: 90px;
+}
+.in__center__dialysis__wrapper .in__center{
+    padding: 50px 0;
+}
+.in__center__dialysis__wrapper .in__center .main__title{
+    margin-bottom: 30px;
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+.in__center__dialysis__wrapper .in__center h5{
+    color: var(--color-default);
+}
+.in__center__dialysis__wrapper .in__center p{
+    color: var(--color-paragraph);
+    font-weight: 300;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width:576px){
+    .in__center__dialysis__wrapper .in__center{
+        padding: 25px 0;
+    }
+    .in__center__dialysis__wrapper .in__center .main__title{
+        margin-bottom: 20px;
+        line-height: 28px;
+        font-size: 18px;
+    }
+    .in__center__dialysis__wrapper .in__center h5{
+        font-size: 18px;
+    }
+    .in__center__dialysis__wrapper .in__center p{
+        font-size: 15px;
+    }
+}

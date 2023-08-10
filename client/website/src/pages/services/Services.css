@@ -1,0 +1,169 @@
+  /*GLOBAL COLORS */
+  :root{
+    --color-primary:hsl(203, 100%, 50%);
+    --color-light-blue:#83C4FF;
+}
+.bloc-tabs {
+    display: flex;
+  }
+  .tabs {
+    padding: 15px;
+    text-align: center;
+    width: 50%;
+    /* background: rgb(247, 252, 253); */
+    background-color: #eefafc;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    /* border-bottom: ; */
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    color: #44546d;
+  }
+  .tabs:not(:last-child){
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+  }
+  
+  .active-tabs  {
+    background: white;
+    border-bottom: 1px solid transparent;
+    color:var(--color-primary);
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    /* background:#5DB2FF; */
+    background: #0c0e87;
+  }
+  
+  
+  
+  button {
+    border: none;
+    
+  }
+  .content-tabs {
+    flex-grow : 1;
+  }
+  .content {
+    background: white;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+  }
+  .content hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  .content p {
+    width: 100%;
+    height: 100%;
+  }
+  .active-content {
+    display: block;
+  }
+
+  /* Additional styling */
+  .services__wrapper{
+    margin: 60px 0
+  }
+  .services__wrapper__title{
+    margin-bottom: 80px;
+  }
+
+  /* SERVICES WITH ICONS */
+
+.content__with__icons__inner{
+    display: flex;
+    gap: 50px;
+}
+.small__box{
+    width: 170px;
+    height: 160px;
+    /* border:1px solid var(--color-primary); */
+    /* border: 1px solid rgb(12 53 93 / 13%); */
+    border: 1px solid #bcbcf8;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(247, 252, 253);
+}
+.home__dialysis__content__left h2{
+    font-size: 24px;
+    color: var(--color-primary);
+}
+.home__dialysis__content__left p{
+    /* color: #727272; */
+    line-height: 28px;
+    font-size: 17px;
+    margin:25px 0;
+    font-weight: 300;
+    color: #1f1b4d;
+}
+.icons{
+    font-size: 55px;
+    /* color:var(--color-light-blue); */
+    /* color: #0c0e87; */
+    color: #4a4bb1;
+}
+.content__with__icons__inner .small__box h6{
+  margin-top: 10px;
+  color: #44546d;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width:576px){
+  .services__wrapper__title{
+    margin-bottom: 40px;
+  }
+  .content__with__icons__inner{
+    display: flex;
+    gap: 8px;
+  }
+  .icons{
+    font-size: 35px;
+    color:var(--color-light-blue);
+}
+.small__box{
+  width: 105px;
+  height: 100px;
+  border:1px solid #83C4FF;
+  padding: 10px;
+  border-radius: 12px;
+}
+.content__with__icons__inner .small__box h6 {
+  margin-top: 5px;
+  font-size: 10px;
+  color: #44546d;
+}
+.tabs h5 span{
+  font-size: 15px;
+}
+.home__dialysis__content__left h2{
+  font-size: 18px;
+}
+.home__dialysis__content__left p{
+  line-height: 22px;
+  font-size: 14px;
+  margin:16px 0;
+}
+}

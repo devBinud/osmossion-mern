@@ -1,0 +1,15 @@
+:root{
+    --color-primary:#009DFF;
+    --color-white:#fff;
+}
+.button__primary{
+    padding:10px 30px;
+    color: var(--color-white);
+    font-weight: bold;
+    border: 1px solid #009DFF;
+    background: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+}
+.button__primary:hover{
+    color:var(--color-white);
+    background: linear-gradient(to right, #5db2ff 0%, #0181f5 100%);
+}

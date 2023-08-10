@@ -1,0 +1,28 @@
+.viewallblogs__wrapper{
+    display: flex;
+}
+.blog__image{
+    width: 100%;
+    object-fit: cover;
+    height:63px
+}
+th{
+    font-weight: 500;
+    color: #6d809e;
+}
+td{
+    font-weight: 400;
+    color: #6d809e;
+}
+.delete__blog__button{
+    border:none;
+    outline:none;
+    background-color: #fff;
+}
+.delete__blog__icon{
+    font-size: 20px;
+    color: #d9534f;
+}
+.delete__blog__icon:hover{
+    color: #da3d38;
+}
